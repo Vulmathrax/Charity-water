@@ -1,0 +1,194 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero with Background Image */
+#hero {
+  padding: 5rem 1rem;
+  text-align: center;
+  color: #fff;
+  background-image: url('img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+#hero .lead {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #f0f0f0;
+}
+
+#hero p {
+  max-width: 700px;
+  margin: 0 auto 1rem;
+  font-size: 1.1rem;
+  color: #eee;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffd700;
+  color: #000;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e6b800;
+  transform: scale(1.05);
+}
+
+/* Gallery Section */
+#impact {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.gallery img {
+  width: 280px;
+  height: auto;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Story Section */
+#story {
+  padding: 2rem 1rem;
+  background-color: #fdfdfd;
+  text-align: center;
+}
+
+#story .quote {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #ededed;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input {
+  padding: 0.75rem;
+  width: 70%;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #ffd700;
+  color: #000;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #e6b800;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* Responsive Behavior */
+@media (max-width: 600px) {
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #hero h2 {
+    font-size: 1.6rem;
+  }
+
+  .btn, button {
+    width: 90%;
+  }
+}
