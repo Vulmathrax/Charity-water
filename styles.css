@@ -43,28 +43,37 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Hero with Background Image */
 #hero {
-  padding: 3rem 1rem;
+  padding: 5rem 1rem;
   text-align: center;
-  background: linear-gradient(to right, #ffffff, #f3f3f3);
+  color: #fff;
+  background-image: url('img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #hero h2 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   margin-bottom: 1rem;
-  color: #222;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
 #hero .lead {
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  color: #f0f0f0;
 }
 
 #hero p {
   max-width: 700px;
   margin: 0 auto 1rem;
   font-size: 1.1rem;
+  color: #eee;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 .btn {
@@ -83,6 +92,7 @@ nav a:hover {
   transform: scale(1.05);
 }
 
+/* Gallery Section */
 #impact {
   padding: 2rem 1rem;
   text-align: center;
@@ -108,6 +118,7 @@ nav a:hover {
   transform: scale(1.05);
 }
 
+/* Story Section */
 #story {
   padding: 2rem 1rem;
   background-color: #fdfdfd;
@@ -120,6 +131,7 @@ nav a:hover {
   margin-bottom: 1rem;
 }
 
+/* Contact Section */
 #contact {
   background-color: #ededed;
   padding: 2rem 1rem;
@@ -155,6 +167,7 @@ button:hover {
   transform: scale(1.05);
 }
 
+/* Footer */
 footer {
   background-color: #222;
   color: #fff;
@@ -164,6 +177,7 @@ footer {
   margin-top: 2rem;
 }
 
+/* Responsive Behavior */
 @media (max-width: 600px) {
   .gallery {
     flex-direction: column;
