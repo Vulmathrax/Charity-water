@@ -100,9 +100,11 @@ nav a:hover {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.btn:hover {
-  background-color: #003366;
-  transform: scale(1.05);
+.btn:hover,
+button:hover {
+  background-color: #e6b800;
+  transform: scale(1.08);
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
 }
 
 /* Gallery Section */
@@ -182,9 +184,9 @@ button {
 
 button:hover {
   background-color: #e6b800;
-  transform: scale(1.05);
+  transform: scale(1.08);
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
 }
-
 /* Footer */
 footer {
   background-color: #222;
@@ -217,3 +219,31 @@ footer {
   vertical-align: middle;
   margin-right: 0.5rem;
 }
+
+@media (min-width: 900px) {
+  #hero h2 {
+    font-size: 3rem;
+  }
+
+  #hero p {
+    font-size: 1.3rem;
+  }
+
+  .gallery img {
+    width: 320px;
+  }
+
+  input {
+    width: 50%;
+  }
+
+  .btn, button {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  form {
+    max-width: 500px;
+  }
+}
+
