@@ -193,6 +193,7 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
   margin-top: 2rem;
+  border-top: 2px solid #ffd700; /* add this line */
 }
 
 /* Responsive Behavior */
