@@ -109,7 +109,8 @@ nav a:hover {
 #impact {
   padding: 2rem 1rem;
   text-align: center;
-  background-color: #fff;
+  background-color: #111;
+  color: #eee;
 }
 
 .gallery {
@@ -134,7 +135,8 @@ nav a:hover {
 /* Story Section */
 #story {
   padding: 2rem 1rem;
-  background-color: #fdfdfd;
+  background-color: #1a1a1a;
+  color: #ddd;
   text-align: center;
 }
 
@@ -146,9 +148,10 @@ nav a:hover {
 
 /* Contact Section */
 #contact {
-  background-color: #ededed;
+  background-color: #181818;
   padding: 2rem 1rem;
   text-align: center;
+  color: #fff;
 }
 
 form {
@@ -160,7 +163,9 @@ input {
   padding: 0.75rem;
   width: 70%;
   margin-bottom: 1rem;
-  border: 1px solid #ccc;
+    background-color: #222;
+  color: #fff;
+  border: 1px solid #666;
   border-radius: 4px;
 }
 
